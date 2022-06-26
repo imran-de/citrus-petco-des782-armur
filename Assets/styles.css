@@ -15,6 +15,9 @@ h2{
     line-height: 32px;
     text-align: center;
 }
+h3{
+    font-family: Petco Circular CAP Black;
+}
 p{
     font-family: Petco Circular CAP Book;
     font-size: 16px;
@@ -76,7 +79,103 @@ p{
 
 /* 3 across model category hero */
 .citrusPetIQ_CategoryMenu{
+    width: 60%;
+    margin: 50px auto;
+}
+.citrusPetIQ_CategoryMenu__container{
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr); */
+    justify-content: space-around;
+    box-sizing: border-box;
+    text-align: center;
+}
+/* card design for category menu */
+.citrusPetIQ_categoryMenu__card{
+    width: 249px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 20px;
+    border: 1px solid #fff;
+}
+.citrusPetIQ_categoryMenu__card:hover{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.citrusPetIQ__Card--img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+.citrusPetIQ__Card--img img{
+    max-width: 100%;
+}
+.citrusPetIQ__card--body__title{
+    font-size:18px;
+}
+.citrusPetIQ__card--body__description{
+    color:#000;
+    min-height: 80px;
+    text-align: center;
+}
+.citrusPetIQ__card--body__button{
+    background: none;
+    border: none;
+    color: #001952;
+    font-family: Petco Circular CAP Bold;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* shop life style */
+.citrusPetIQ_shopLifeStyle__row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.citrusPetIQ_shopLifeStyle__img img{
+    max-width: 100%;
+}
+
+/* Product container */
+.citrusPetIQ_shopProduct__menu{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #021b4e;
+}
+.citrusPetIQ_shopProduct__menu__tabNav{
+    list-style: none;
+    display: inline-flex;
+    text-align: center;
+}
+.citrusPetIQ_shopProduct__menu__tabNav li{
+    font-family: Petco Circular CAP bold;
+    border-bottom: 8px solid #021b4e;
+    margin:0 40px;
+}
+/* disclaimer */
+.citrusPetIQ__disclaimer{
+    width: 648px;
+    max-width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    font-size:12px;
+}
+
+/* defense */
+.citrusPetIQ__defense{
+    background: #f8f8f8;
+    padding: 38px;
+}
+.citrusPetIQ_defense__Container{
     width: 80%;
     margin: auto;
-    margin-top: 50px;
 }
