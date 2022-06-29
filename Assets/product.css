@@ -250,10 +250,6 @@ button {
     opacity: 0;
 }
 
-/* .citrusPetIQ__shopProduct__row_hide_arrow .splide__arrows{
-            display: none;
-        }*/
-
 .citrusPetIQ__shopProduct__row .splide__pagination {
     display: none;
 }
@@ -322,8 +318,6 @@ button {
 /************************************/
 
 
-@media all and (min-width: 992px) and (max-width:1280px) {}
-
 
 @media all and (max-width: 1301px) {
 
@@ -365,8 +359,6 @@ button {
 
 }
 
-@media all and (max-width: 991px) {}
-
 @media all and (max-width: 767px) {
 
     .citrusPetIQ_product_tab_item {
@@ -392,7 +384,3 @@ button {
         max-width: 195px;
     }
 }
-
-@media all and (max-width: 413px) {}
-
-@media all and (max-width: 374px) {}

@@ -214,10 +214,9 @@ p{
 .citrusPetIQ_shopProduct__card__body{
     margin-top: 34px;
 }
-.citrusPetIQ_shopProduct__card_title{
+p.citrusPetIQ_shopProduct__card_title{
     font-family: "PetcoCircularTT-Regular", arial !important;
     font-size: 13px;
-    font-weight: 100;
 }
 /* shop all cta */
 .citrusPetIQ__shopAll{
