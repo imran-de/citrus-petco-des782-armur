@@ -232,7 +232,7 @@ p.citrusPetIQ_shopProduct__card_title{
     font-family: "PetcoCircularTT-Bold", arial !important;
     font-size: 16px;
     color: #fff;
-    text-transform: capitalize;
+    text-transform: uppercase;
     padding: 22px 21px 18px 22px;
     transition: background 1s;
 }
@@ -490,6 +490,15 @@ p.citrusPetIQ_shopProduct__card_title{
         width: 90%;
         margin: auto;
     }
+    /* shop all cta */
+    .citrusPetIQ__shopAll>button {
+    background: #00195200;
+    border: none;
+    font-weight: bold;
+    color: #001952;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
     /* defense */
     .citrusPetIQ_defense__Container,
     .citrusPetIQ_protect__Container {
