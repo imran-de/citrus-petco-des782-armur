@@ -63,7 +63,6 @@ function filterProductShots(c) {
     elemDog.className += " citrusPetIQ_product_tab_item_active";
     elemCat.classList.remove("citrusPetIQ_product_tab_item_active");
   } else if (c === "citrusPetIQ_cat") {
-    console.log(elemCat);
     elemCat.className += " citrusPetIQ_product_tab_item_active";
     elemDog.classList.remove("citrusPetIQ_product_tab_item_active");
   }
