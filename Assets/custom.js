@@ -60,7 +60,6 @@ function filterProductShots(c) {
   const elemDog = document.getElementById("citrusPetIQ_dogTab");
   const elemCat = document.getElementById("citrusPetIQ_catTab");
   if (c === "citrusPetIQ_dog") {
-    console.log(elemDog);
     elemDog.className += " citrusPetIQ_product_tab_item_active";
     elemCat.classList.remove("citrusPetIQ_product_tab_item_active");
   } else if (c === "citrusPetIQ_cat") {

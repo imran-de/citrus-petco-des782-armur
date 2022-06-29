@@ -1,7 +1,3 @@
-/*--------------------------------------------------
-----------------------------------------------------
----------------------------------------------------- */
-// slider script start ------------------------------
 function At(n, t) {
   for (var e = 0; e < t.length; e++) {
     var i = t[e];
@@ -2142,5 +2138,3 @@ var n, t;
     ? define(t)
     : ((n = "undefined" != typeof globalThis ? globalThis : n || self).Splide =
         t());
-
-// End slider script
