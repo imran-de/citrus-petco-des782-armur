@@ -17,7 +17,7 @@
  * Lineto.com, 2020
  */
 
-
+/* 
    @font-face {
        font-family: PetcoCircularTT-Regular;
        src: url(Assets/fonts/PetcoCircularTT-Regular.woff2) format("woff2"), url(Assets/fonts/PetcoCircularTT-Regular.woff) format("woff")
@@ -26,7 +26,7 @@
    @font-face {
        font-family: PetcoCircularTT-Bold;
        src: url(Assets/fonts/PetcoCircularTT-Bold.woff2) format("woff2"), url(Assets/fonts/PetcoCircularTT-Bold.woff) format("woff")
-   }
+   } */
 /* universal */
 a{
     text-decoration: none;
@@ -80,6 +80,10 @@ p{
     display: grid;
     grid-template-columns: 63% 37%;
     grid-gap: 0;
+}
+
+.citrusPetIQ_banner_title{
+    color: #001952;
 }
 /* top banner cta */
 .citrusPetIQ_banner_cta_container{
@@ -272,7 +276,7 @@ p.citrusPetIQ_shopProduct__card_title{
     padding-bottom: 21px;
 }
 .citrusPetIQ__defense__card_img img{
-    max-width: 100%;
+    width: 100%;
 }
 .citrusPetIQ__defense__card_body{
     width: 80%;
@@ -308,7 +312,11 @@ p.citrusPetIQ_shopProduct__card_title{
 /* ****************************** */
 /* Responsive styling */
 /* ****************************** */
-
+@media all and (min-width: 1441px){
+    .citrusPetIQ__defense__card_img,.citrusPetIQ__defense__card_img iframe{
+        min-height: 420px;
+    }
+}
 @media all and (min-width: 992px) and (max-width: 1301px) {
     h1 {
         margin-top: 10px;
@@ -343,7 +351,7 @@ p.citrusPetIQ_shopProduct__card_title{
         min-height: 247px;
     }
 }
-@media all and (min-width: 1180px) {
+@media all and (min-width: 1180px) and (max-width:1440px) {
 
     .citrusPetIQ__defense__card_img,
     .citrusPetIQ__defense__card_img iframe {
@@ -436,6 +444,7 @@ p.citrusPetIQ_shopProduct__card_title{
     /* hero cta  banner*/
     .citrusPetIQ_banner_title{
         text-align: center;
+        color: #001952;
     }
     .citrusPetIQ_Banner_sub-title{
         padding: 0 0;
