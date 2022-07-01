@@ -192,7 +192,11 @@ p{
 .citrusPetIQ_shopProduct__menu__tabNav li{
     font-family: "PetcoCircularTT-Bold", arial !important;
     border-bottom: 8px solid #021b4e00;
-    /* margin:0 40px; */
+}
+.citrusPetIQ_shopProduct__menu__tabNav li img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
 }
 /* product shot list */
 .citrusPetIQ__shopProduct__row{
